@@ -18,3 +18,31 @@ body {
   height: 260px;
   object-fit: cover;
 }
+
+.card-img-top {
+  height: 230px;
+  object-fit: cover;
+}
+
+.lugar-card {
+  border: none;
+  border-radius: 18px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lugar-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+.card-img-top {
+  height: 230px;
+  object-fit: cover;
+}
+
+.form-control,
+.form-select {
+  border-radius: 12px;
+  padding: 12px;
+}

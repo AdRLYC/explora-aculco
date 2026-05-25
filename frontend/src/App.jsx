@@ -6,6 +6,7 @@ import Galeria from "./components/Galeria";
 import Mapa from "./components/Mapa";
 import Contacto from "./components/Contacto";
 import Footer from "./components/Footer";
+import AdminLugares from "./components/AdminLugares";
 import "./styles/style.css";
 
 function App() {
@@ -18,7 +19,9 @@ function App() {
       <Galeria />
       <Mapa />
       <Contacto />
+      <AdminLugares />
       <Footer />
+      
     </>
   );
 }
